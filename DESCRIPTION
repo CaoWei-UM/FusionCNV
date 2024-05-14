@@ -1,0 +1,17 @@
+Package: FusionCNV
+Type: Package
+Title: Calculate single cell CNV from DNA and RNA
+Version: 0.3.2
+Author: Caow
+Maintainer: Caow <caow@mail.sustech.edu.cn>
+Description: It can calculate single cell CNV from CNR file
+    or expression matrix.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: copynumber, pheatmap, zoo, Seurat, ape, phangorn, uwot,
+        ggplot2, ggnewscale, reshape2, scales, network, ggnet
+RoxygenNote: 7.0.2
+NeedsCompilation: no
+Packaged: 2022-01-12 06:39:25 UTC; caow
+Depends: R (>= 3.5.0)
